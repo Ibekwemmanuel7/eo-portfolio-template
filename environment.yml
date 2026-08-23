@@ -1,0 +1,23 @@
+# Conda environment for local setup (most reliable for the GDAL stack, esp. on Windows).
+#   mamba env create -f environment.yml   &&   mamba activate eo
+name: eo
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - rasterio
+  - geopandas
+  - rioxarray
+  - xarray
+  - odc-stac
+  - pystac-client
+  - stackstac
+  - geodatasets
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - earthaccess
+  - pytest
+  - ruff
+  - jupyterlab
+  - pip

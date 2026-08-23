@@ -1,0 +1,17 @@
+# Lillie Academy eo-portfolio: pip environment (works in Colab and Codespaces).
+rasterio
+geopandas
+rioxarray
+xarray
+odc-stac
+pystac-client
+stackstac
+geodatasets
+matplotlib
+numpy
+pandas
+scikit-learn
+earthaccess
+pytest
+ruff
+jupyterlab

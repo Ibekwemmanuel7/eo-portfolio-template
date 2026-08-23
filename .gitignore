@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+data/*.tif
+grades/
